@@ -75,19 +75,19 @@ MODEL_PATH=checkpoints/DistgSSR_32x8_6x6x64_finetune.pth
    2) batch size = 20, lr = 5e-4, 训练15周期
    3) batch size = 20, lr = 2.5e-4, 训练15周期  
    4) 加入 rgb shuffle 和 13579 视图, batch size = 20, lr = 1.25e-4, 训练15周期  
-   在第 **iv** 步内选择验证集上最好的结果
+在第 **iv** 步内选择验证集上最好的结果
 
 2. DistgSSR_32x8_6x6x128.pth
    1) batch size = 10, lr = 5e-4, 训练15周期
    2) batch size = 10, lr = 2.5e-4, 训练15周期  
-   在第 **ii** 步内选择验证集上最好的结果
+在第 **ii** 步内选择验证集上最好的结果
 
 3. DistgSSR_32x8_6x6x128_finetune.pth
    1) 基于 DistgSSR_32x8_6x6x128.pth 模型进行finetune
    2) 加入 rgb shuffle 和 13579 视图, batch size = 10, lr = 1.25e-4, 训练15周期  
-   在第 **ii** 步内选择验证集上最好的结果
+在第 **ii** 步内选择验证集上最好的结果
 
 4. DistgEPIT series
    1) 80个epoch 2e-4, 20个epoch 1e-4
    2) 加入 13579 视图训练 20个epoch 1e-4  
-   在第 **ii** 步内选择验证集上最好的结果
+在第 **ii** 步内选择验证集上最好的结果
