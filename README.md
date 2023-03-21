@@ -79,7 +79,7 @@ MODEL_PATH=checkpoints/DistgSSR_32x8_6x6x64_finetune.pth
 
 2. DistgSSR_32x8_6x6x128.pth
    1) batch size = 10, lr = 5e-4, 训练15周期
-   2) batch size = 10, lr = 2.5e-4, 训练15周期
+   2) batch size = 10, lr = 2.5e-4, 训练15周期  
    在第 **ii** 步内选择验证集上最好的结果
 
 3. DistgSSR_32x8_6x6x128_finetune.pth
