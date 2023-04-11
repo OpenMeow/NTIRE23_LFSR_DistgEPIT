@@ -37,7 +37,7 @@ python Generate_Data_for_inference.py --angRes 5 --scale_factor 4
 
 ### Training & Test
 
-✅ **Postion-Senstive Windowing (PSW)** opeartion located in `lfsr.py:inference_no_pad`
+**Postion-Senstive Windowing (PSW)** opeartion located in `lfsr.py:inference_no_pad`
 
 ```bash
 # training model
